@@ -364,11 +364,9 @@ textarea.discussion {
 }
 
 .trigger.discussion {
-  height:4em;
-  margin-top:-3.75em;
-  position:relative;
-  text-align:right;
-  z-index:9;
+  position: relative;
+  text-align: right;
+  z-index: 9;
 }
 
 .question {
@@ -1224,10 +1222,10 @@ $rating-img: dimensions("stars1.png");
     @extend .break-word;
   }
   .trigger.discussion {
-    height:1em;
-    margin:-1.5em 0 2em;
-    text-align:left;
-  }
+    height: 1em;
+    margin: -1.5em 0 2em;
+    text-align: left;
+	}
 }
 .expert, #allComments .expert {
   background: lighten( sears( decorative ), 15 );
